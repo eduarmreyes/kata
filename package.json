@@ -1,0 +1,30 @@
+{
+  "name": "kata",
+  "version": "1.0.0",
+  "description": "eduarmreyes's JS solution to the Bank OCR Kata (https://github.com/testdouble/contributing-tests/wiki/Bank-OCR-kata).",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/eduarmreyes/kata.git"
+  },
+  "keywords": [
+    "kata"
+  ],
+  "author": "eduarmreyes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eduarmreyes/kata/issues"
+  },
+  "homepage": "https://github.com/eduarmreyes/kata#readme",
+  "devDependencies": {
+    "eslint": "^5.3.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^5.1.0",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "prettier": "^1.18.2"
+  }
+}
