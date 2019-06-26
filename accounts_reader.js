@@ -1,5 +1,5 @@
 // Accounts
-
+const RAW_CHAR_WIDTH = 3;
 const RAW_TO_VALUE = [];
 /*
 [
@@ -90,8 +90,8 @@ const parse = rawAccountText => {
     // eslint-disable-next-line no-loop-func
     [0, 1, 2].forEach(indexOfAccountLine => {
       digitIndex += accountLines[indexOfAccountLine].slice(
-        digitPlace * 3,
-        (digitPlace + 1) * 3
+        digitPlace * RAW_CHAR_WIDTH,
+        (digitPlace + 1) * RAW_CHAR_WIDTH
       );
     });
     cacheAccountNumber.push(RAW_TO_VALUE[digitIndex]);
