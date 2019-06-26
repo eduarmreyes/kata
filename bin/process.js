@@ -12,6 +12,6 @@ const AccountsReader = require("../accounts_reader.js");
     }
     const reader = new AccountsReader(data);
     const formattedAccounts = reader.accounts();
-    console.log("From reader", formattedAccounts);
+    console.log(formattedAccounts.join("\n"));
   });
 })();
