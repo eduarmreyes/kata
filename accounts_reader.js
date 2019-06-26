@@ -94,7 +94,7 @@ const parse = rawAccountText => {
         (digitPlace + 1) * RAW_CHAR_WIDTH
       );
     });
-    cacheAccountNumber.push(RAW_TO_VALUE[digitIndex]);
+    cacheAccountNumber.push(RAW_TO_VALUE[digitIndex] || "?");
   }
   return cacheAccountNumber.join("");
 };
